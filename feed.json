@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema":"http://schema.org",
+    "version": {
+      "@id": "http://dbpedia.org/ontology/version",
+      "@type": "xsd:anyURI"
+    },
+     "title": {
+      "@id": "http://purl.org/dcterms/title",
+      "@type":"xsd:string"
+    },
+    "home_page_url": {
+      "@id": "foaf:homepage",
+      "@type": "@id"
+    },
+    "feed_url": {
+      "@id": "http://rdfs.org/sioc/ns#feed",
+      "@type": "xsd:anyURI"
+    },
+    "icon":{
+      "@id":"http://www.w3.org/1999/xhtml/vocab#icon",
+      "@type":"schema:ImageObject"
+    },
+    "favicon":{
+      "@id":"http://www.w3.org/1999/xhtml/vocab#icon",
+      "@type":"schema:ImageObject"
+    }
+  }
+}

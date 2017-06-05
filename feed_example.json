@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema":"http://schema.org",
+    "version": {
+      "@id": "http://dbpedia.org/ontology/version",
+      "@type": "xsd:anyURI"
+    },
+     "title": {
+      "@id": "http://purl.org/dcterms/title",
+      "@type":"xsd:string"
+    },
+    "home_page_url": {
+      "@id": "foaf:homepage",
+      "@type": "@id"
+    },
+    "feed_url": {
+      "@id": "http://rdfs.org/sioc/ns#feed",
+      "@type": "xsd:anyURI"
+    },
+    "icon":{
+      "@id":"http://www.w3.org/1999/xhtml/vocab#icon",
+      "@type":"schema:ImageObject"
+    },
+    "favicon":{
+      "@id":"http://www.w3.org/1999/xhtml/vocab#icon",
+      "@type":"schema:ImageObject"
+    }
+  },
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Daring Fireball",
+  "home_page_url": "https://daringfireball.net/",
+  "feed_url": "https://daringfireball.net/feeds/json",
+  "author": {
+    "url": "https://twitter.com/gruber",
+    "name": "John Gruber"
+  },
+  "icon": "https://daringfireball.net/graphics/apple-touch-icon.png",
+  "favicon": "https://daringfireball.net/graphics/favicon-64.png",
+  "items": [
+    {
+      "title": "Jamf Now",
+      "date_published": "2017-06-04T00:48:00Z",
+      "date_modified": "2017-06-04T00:55:09Z",
+      "id": "https://daringfireball.net/linked/2017/06/03/jamf-now",
+      "url": "https://daringfireball.net/linked/2017/06/03/jamf-now",
+      "external_url": "https://www.jamf.com/lp/set-up-manage-and-protect-apple-devices-at-work/?utm_source=daringfireball&utm_medium=text&utm_campaign=2017-22",
+      "author": {
+        "name": "John Gruber"
+      },
+      "content_html": "\n<p>My thanks to Jamf for sponsoring this week&#8217;s DF feed.  Jamf Now is a simple, cloud-based solution designed to help anyone set up, manage, and protect Apple devices at work. Easily configure company email and Wi-Fi networks, distribute apps to your team, and protect sensitive data without locking down devices. Jamf Now allows you to treat IT as a task, not a full-time career.</p>\n\n<p><a href=\"https://www.jamf.com/lp/set-up-manage-and-protect-apple-devices-at-work/?utm_source=daringfireball&amp;utm_medium=text&amp;utm_campaign=2017-22\">Daring Fireball readers can create an account and manage three devices for free</a>. Forever. Each additional device is just $2 per month. <a href=\"https://signup.jamfcloud.com/?utm_source=daringfireball&amp;utm_medium=text&amp;utm_campaign=2017-22\">Create your free account today</a>.</p>\n\n<div>\n<a  title=\"Permanent link to ‘Jamf Now’\"  href=\"https://daringfireball.net/linked/2017/06/03/jamf-now\">&nbsp;★&nbsp;</a>\n</div>\n\n "
+    },
+    {
+      "title": "Ina Fried: Bozoma Saint John Plans to Leave Apple",
+      "date_published": "2017-06-04T00:15:00Z",
+      "date_modified": "2017-06-04T02:08:02Z",
+      "id": "https://daringfireball.net/linked/2017/06/03/bozoma-saint-john",
+      "url": "https://daringfireball.net/linked/2017/06/03/bozoma-saint-john",
+      "external_url": "https://www.axios.com/apple-music-executive-bozoma-saint-john-plans-to-leave-the-company-2430821417.html",
+      "author": {
+        "name": "John Gruber"
+      },
+      "content_html": "\n<p>Ina Fried, reporting a scoop for Axios:</p>\n\n<blockquote>\n  <p>Bozoma Saint John, the Apple executive who garnered significant\nattention for her demo at last year&#8217;s worldwide developer\nconference, plans to leave the company, Axios has learned. Saint\nJohn was head of Global Consumer Marketing for Apple Music (and\npredecessor Beats Music). [&#8230;]</p>\n\n<p>While Apple has several women of color in higher-ranking\npositions, Saint John had a high profile beyond Apple and was\nwidely praised for her on-stage work last year. She was also\nfairly unique among Apple executives in maintaining a strong\npersonal brand beyond her work identity, with a strong following\non Instagram and Twitter.</p>\n</blockquote>\n\n<p>So much for <a href=\"https://daringfireball.net/thetalkshow/2017/05/27/ep-191\">my prediction on The Talk Show</a> that we&#8217;d see Boz on-stage again in the WWDC keynote. I also enjoyed that the company with <a href=\"https://en.wikipedia.org/wiki/Steve_Wozniak\">Woz</a> and <a href=\"https://www.imore.com/watch-greg-joswiaks-full-codemobile-interview-right-now\">Joz</a> now had a Boz.</p>\n\n<div>\n<a  title=\"Permanent link to ‘Ina Fried: Bozoma Saint John Plans to Leave Apple’\"  href=\"https://daringfireball.net/linked/2017/06/03/bozoma-saint-john\">&nbsp;★&nbsp;</a>\n</div>\n\n "
+    },
+    {
+      "title": "‘App: The Human Story’ Screening Tomorrow Night in San Jose",
+      "date_published": "2017-06-04T00:02:24Z",
+      "date_modified": "2017-06-04T00:02:27Z",
+      "id": "https://daringfireball.net/linked/2017/06/03/app-the-human-story",
+      "url": "https://daringfireball.net/linked/2017/06/03/app-the-human-story",
+      "external_url": "https://www.classy.org/san-jose/events/app-human-story-documentary-screening-presented-by-altconf-layers/e128096",
+      "author": {
+        "name": "John Gruber"
+      },
+      "content_html": "\n<p>Tomorrow night in San Jose:</p>\n\n<blockquote>\n  <p>Join <a href=\"http://altconf.com/\">AltConf</a> and <a href=\"https://layers.is/\">Layers</a> on Sunday June 4 for an exclusive\npre-release screening of <a href=\"http://appdocumentary.com/\">App: The Human Story</a>, a documentary that\ngives an intimate view into the journeys of independent app makers\nas they traverse a dynamic new industry. Following the screening,\na panel made up of cast members from the film, including Adam\nLisagor, Brent Simmons, Cabel Sasser, Grey Osten, John Gruber, Ish\nShabazz, Jay Dysart, Melissa Hargis, Steven Frank and Windy Chien,\nwill discuss the documentary film.</p>\n</blockquote>\n\n<p>Co-director Jake Schumacher will be there too. The screening is at 5p, and I&#8217;ll be leading the panel discussion afterward. I&#8217;ve seen a recent cut of the film and it&#8217;s terrific. I can&#8217;t believe this screening hasn&#8217;t sold out yet &#8212; get your tickets while there are still some left.</p>\n\n<p>Tickets are $25, and all proceeds go to <a href=\"http://appcamp4girls.com/\">App Camp for Girls</a>. If you see me there, please say hello.</p>\n\n<div>\n<a  title=\"Permanent link to ‘&#8216;App: The Human Story&#8217; Screening Tomorrow Night in San Jose’\"  href=\"https://daringfireball.net/linked/2017/06/03/app-the-human-story\">&nbsp;★&nbsp;</a>\n</div>\n\n "
+    }
+  ]
+}
